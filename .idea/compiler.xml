@@ -9,6 +9,7 @@
         <module name="parkingLot" />
         <module name="ElevatorSystem" />
         <module name="LRUCache" />
+        <module name="Splitwise" />
         <module name="ConcertBookingSystem" />
       </profile>
     </annotationProcessing>
