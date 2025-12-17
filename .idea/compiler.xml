@@ -10,6 +10,9 @@
         <module name="ElevatorSystem" />
         <module name="LRUCache" />
         <module name="Splitwise" />
+        <module name="LoggerSystem" />
+        <module name="NotificationSystem" />
+        <module name="ATM" />
         <module name="ConcertBookingSystem" />
       </profile>
     </annotationProcessing>

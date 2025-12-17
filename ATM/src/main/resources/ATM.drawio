@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="29.2.7">
+  <diagram name="Page-1" id="fC6e2oPuM0n3nsw0pQ3N">
+    <mxGraphModel dx="1072" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-151" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Card&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- cardNumber: Long&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- pin&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="220" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-152" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Account&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- accountNumber: Long&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- accountType: AccountType&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- cards: List&amp;lt;Card&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- accountBalance(): double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- authenticate(cardnumber, pin)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- withdraw()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- deposit()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- get balance()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- changePin(card, existingpin, newpin)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="230" width="210" x="210" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-153" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CashManagementService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ denominations: Map&amp;lt;Denomination,Integer&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- totalCashAvailable: long&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ disperseCash(amount): void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="280" x="990" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-154" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-152" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.427;exitY=1.02;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HnXE6o7OKXGaJpi_1Qrm-151" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="510" y="650" as="sourcePoint" />
+            <mxPoint x="670" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-155" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Transaction&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- accountNumber: long&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- amount: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-dateTime: LocalDateTIme&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="280" x="658.5" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-162" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="HnXE6o7OKXGaJpi_1Qrm-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-156" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ATMService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- bankingService: BakingService&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-cashManagementService: CMS&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-transactions: List&amp;lt;Transaction&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ withdraw(card, amount, pin): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+deposit(accountNumber, Amount): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getBalance(accountNumber)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ changePin(accountNumber, oldPin,newPin)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="220" width="223" x="687" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-157" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BankingService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ accounts: List&amp;lt;Account&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+cards: Map&amp;lt;cardnumber, AccountNumber&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ autenticate(cardnumber, pin): Type&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+withdraw(accountNumber ,amount)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+deposit(accountNumber, amount&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+getBalance(accountNumber)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ changePin(card,oldpin, newpin)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="220" width="210" x="370" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-159" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-157" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HnXE6o7OKXGaJpi_1Qrm-152" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="460" y="610" as="sourcePoint" />
+            <mxPoint x="620" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-160" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-156" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HnXE6o7OKXGaJpi_1Qrm-155" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="750" y="380" as="sourcePoint" />
+            <mxPoint x="910" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-161" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-156" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.478;entryY=-0.027;entryDx=0;entryDy=0;entryPerimeter=0;" target="HnXE6o7OKXGaJpi_1Qrm-153" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="780" y="350" as="sourcePoint" />
+            <mxPoint x="940" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

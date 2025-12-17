@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="29.2.7">
+  <diagram name="Page-1" id="fC6e2oPuM0n3nsw0pQ3N">
+    <mxGraphModel dx="1072" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-87" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.338;exitY=1.022;exitDx=0;exitDy=0;exitPerimeter=0;" target="HnXE6o7OKXGaJpi_1Qrm-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-88" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HnXE6o7OKXGaJpi_1Qrm-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-84" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Notification&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- id: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- message: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- recipient: User&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- notificationType: NotificationType&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- dateTime: LocalDateTime&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-deliveryStatus: DeliveryStatus&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;//getters and Setters&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="290" x="530" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-85" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;ENUM&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;NotificationType&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;EMAIL&lt;br&gt;SMS&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;PUSH_NOTIFICATION&lt;/p&gt;" vertex="1">
+          <mxGeometry height="110" width="180" x="390" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-86" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;ENUM&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;DeliveryStatus&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;PENDING&lt;br&gt;SENT&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;DELIVERED&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;FAILED&lt;/p&gt;" vertex="1">
+          <mxGeometry height="110" width="190" x="650" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-89" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NotificationPreference&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- userId: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- prefrences: Map&amp;lt;NotificationType, boolean&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;// getters and setters&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="290" x="210" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-90" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.056;entryY=-0.035;entryDx=0;entryDy=0;entryPerimeter=0;" target="HnXE6o7OKXGaJpi_1Qrm-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-91" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;User&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- userId: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- name: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- email: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- phone: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-deviceToken : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-notifPrefrences: NotificationPrefernce&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;// getters and setters&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="290" x="290" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-92" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.793;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="HnXE6o7OKXGaJpi_1Qrm-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-93" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NotificationRepository&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- notifications: Map&amp;lt;String,Notification&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ save(Notification) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getById(String): Notification&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+getByUser(userID): List&amp;lt;Notification&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ updateStatus(id, Status): void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="300" x="670" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-94" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.621;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" target="HnXE6o7OKXGaJpi_1Qrm-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-95" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;NotificationSender&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ sendNotification(Notification,User): void&lt;br&gt;+ getType(Notification): NotificationTYpe&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="190" x="1080" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-96" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;EmailNotification&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="930" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-97" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SmsNotification&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="1120" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-98" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PushNotification&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="1300" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-99" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-96" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.387;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" target="HnXE6o7OKXGaJpi_1Qrm-95" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1130" y="590" as="sourcePoint" />
+            <mxPoint x="1290" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-100" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-98" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.452;exitY=0.04;exitDx=0;exitDy=0;entryX=0.802;entryY=0.978;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" target="HnXE6o7OKXGaJpi_1Qrm-95" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1210" y="667" as="sourcePoint" />
+            <mxPoint x="1354" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-101" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-97" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.459;exitY=0.027;exitDx=0;exitDy=0;entryX=0.55;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" target="HnXE6o7OKXGaJpi_1Qrm-95" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1060" y="597" as="sourcePoint" />
+            <mxPoint x="1204" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-106" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HnXE6o7OKXGaJpi_1Qrm-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-108" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-109" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="HnXE6o7OKXGaJpi_1Qrm-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-105" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NotificationService&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- notifications: List&amp;lt;Notifications&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- notificationRepository: NotifRepo&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- notificationSender: NotificationSender()&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ NotificationService() &amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ sendNotification(Notification,User) :void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &amp;nbsp;sendBulkNotification(Notification, List&amp;lt;User&amp;gt;): void&lt;/p&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="320" x="640" y="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

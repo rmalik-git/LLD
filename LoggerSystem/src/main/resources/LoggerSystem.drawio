@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="29.2.7">
+  <diagram name="Page-1" id="fC6e2oPuM0n3nsw0pQ3N">
+    <mxGraphModel dx="2726" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-163" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LoggerDemo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="110" x="290" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-164" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;FileAppender&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="410" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-165" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ConsoleAppender&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ append(message):void&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="240" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-166" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DatabseAppender&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ append(message):void&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="70" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-167" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Appenders&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ logFormatter: logFormatter&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ append(message):void&lt;br&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="190" x="240" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-168" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;JsonLogFormatter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ format(): Type&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="-50" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-169" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DetailedLogFormatter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ format(message):void&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="-230" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-170" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Simple LogFormatter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ format(message):void&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="-400" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-171" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;LogFormatter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ format(message):void&lt;br&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="190" x="-300" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-172" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-164" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.381;exitY=0.035;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HnXE6o7OKXGaJpi_1Qrm-167" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="550" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-173" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-165" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.455;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;" target="HnXE6o7OKXGaJpi_1Qrm-167" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="523" y="403" as="sourcePoint" />
+            <mxPoint x="300" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-174" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-166" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="HnXE6o7OKXGaJpi_1Qrm-167" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="413" y="393" as="sourcePoint" />
+            <mxPoint x="190" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-175" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-168" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.46;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.577;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" target="HnXE6o7OKXGaJpi_1Qrm-171" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1258" y="383" as="sourcePoint" />
+            <mxPoint x="1035" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-176" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-169" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.634;exitY=-0.018;exitDx=0;exitDy=0;entryX=0.383;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" target="HnXE6o7OKXGaJpi_1Qrm-171" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1090" y="380" as="sourcePoint" />
+            <mxPoint x="1026" y="352" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-177" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-170" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.463;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="HnXE6o7OKXGaJpi_1Qrm-171" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="900" y="380" as="sourcePoint" />
+            <mxPoint x="1010" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-178" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LogMessage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ id: String&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ message: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ logType : LogType&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ timestamp: DateTime&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ LogMessage(message, LogType): Type&lt;/p&gt;" vertex="1">
+          <mxGeometry height="150" width="160" x="530" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-180" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;ENUM&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LogType&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;INFO,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;DEBUG,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;WARNING,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;ERROR,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;CRITICAL&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="180" width="160" x="770" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-182" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-178" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.011;exitY=0.456;exitDx=0;exitDy=0;exitPerimeter=0;" target="HnXE6o7OKXGaJpi_1Qrm-180" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="640" y="720" as="sourcePoint" />
+            <mxPoint x="630" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-186" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="HnXE6o7OKXGaJpi_1Qrm-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-183" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Logger&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ globalLogLevel: LogType&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+logFormatter: LogFormatter&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ appenders: List&amp;lt;Appender&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ logs: List&amp;lt;LogMessage&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Logger(globalLogLevel, logFormatter,appenders&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ debug()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+info()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;.&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;.&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+logMessage(message,LogType)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ static synchronize getInstace()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="260" width="230" x="540" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-184" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-183" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;" target="HnXE6o7OKXGaJpi_1Qrm-167" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="490" y="200" as="sourcePoint" />
+            <mxPoint x="670" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-185" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-167" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0;entryY=0.429;entryDx=0;entryDy=0;exitX=-0.008;exitY=0.429;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="HnXE6o7OKXGaJpi_1Qrm-171" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="1030" y="190" as="sourcePoint" />
+            <mxPoint x="800" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnXE6o7OKXGaJpi_1Qrm-187" edge="1" parent="1" source="HnXE6o7OKXGaJpi_1Qrm-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.019;entryY=0.174;entryDx=0;entryDy=0;entryPerimeter=0;" target="HnXE6o7OKXGaJpi_1Qrm-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

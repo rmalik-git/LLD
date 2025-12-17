@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+sourceCompatibility = '11'
+targetCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.json:json:20231013'
+}
+
+application {
+    mainClass = 'org.example.LoggerDemo'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
